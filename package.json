@@ -1,7 +1,7 @@
 {
-  "name": "burger",
+  "name": "sequelizedBurger",
   "version": "1.0.0",
-  "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).",
+  "description": "A burger logger with MySQL2, Node, Express, Handlebars and Sequelize.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mickburgess/burger.git"
+    "url": "git+https://github.com/mickburgess/sequelizeBurger.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mick Burgess",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mickburgess/burger/issues"
+    "url": "https://github.com/mickburgess/sequelizeBurger/issues"
   },
-  "homepage": "https://github.com/mickburgess/burger#readme",
+  "homepage": "https://github.com/mickburgess/sequelizeBurger#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
   }
 }
